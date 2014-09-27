@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Computer Modern";
+    src: url('cmunrm.otf');
+  }
+@font-face {
+    font-family: "Computer Modern";
+    src: url('cmunbx.otf');
+    font-weight: bold;
+  }
+@font-face {
+    font-family: "Computer Modern";
+    src: url('cmunti.otf');
+    font-style:italic;
+  }  
+@font-face {
+    font-family: "Computer Modern";
+    src: url('cmunbi.otf');
+    font-weight: bold;
+    font-style: italic;
+  }
+
+i {font-style:italic;}
+
+h1 {font-size:1250%; font-family:'Computer Modern', serif; font-style:normal; font-weight:normal;
+margin-top:100px; margin-bottom:0px; line-height:90%;
+text-align:center;}
+
+h2 {font-size:200%; font-family:'Computer Modern', serif; font-style:normal; font-weight:normal; margin-top:0px; margin-bottom:0px;
+text-align:center;}
+
+/* h2 {font-size:200%; font-family:'Computer Modern'; font-style:normal; font-weight:normal;
+margin-top:0px; margin-bottom:0px; text-align:center} */
+
+p {font-size:100%;font-family:'Computer Modern', serif; text-align:left; margin-left:auto; margin-right:auto; max-width:450px;}
+
+table {font-size:100; font-family:'Computer Modern', serif; margin-left:auto;
+margin-right:auto; margin-top:100px; text-align:left;}
+
+td {vertical-align:top;}
+
+td.right {text-align:right;}
+
+td:first-child {font-weight:700; padding-right:5px;}
+
+td:nth-child(2) {max-width:450px;}
+
+a:link, a:visited, a:active {color:#000000; text-decoration:none;}
+
+a:hover {color:#6600ff; text-decoration:none;}
+
+IMG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+img.footer {display:block; margin-left:auto; margin-right:auto;
+margin-top:150px;}
