@@ -1,0 +1,16 @@
+<HTML>
+<HEAD>
+<TITLE>Residents of Fifth-West</TITLE>
+</HEAD>
+
+<BODY BGCOLOR=#ffffff>
+
+<STYLE type="text/css">
+ TH { text-align: left; background-color: #0000ff; color: #ffffff}
+
+ TR.odd {background-color: #ffffff}
+ TR.even {background-color: #cceeff}
+</STYLE>
+
+<TABLE BORDER=0>
+

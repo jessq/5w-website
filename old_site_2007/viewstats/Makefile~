@@ -1,0 +1,17 @@
+CC=gcc
+CFLAGS= -Wall
+LIBS=-lgd -lpng -lm -lz 
+
+all:	 votedist.cgi
+	chmod 755 *.cgi
+
+VOTEDISTOS=votedistcgi.o table.o vector.o cgiparse.o utils.o
+
+votedist.cgi: $(VOTEDISTOS)
+	$(CC) $(CFLAGS) $(LIBS) $(VOTEDISTOS) -o votedist.cgi
+
+*.c.o:
+	$(CC) $(CFLAGS) -c $<
+
+clean:
+	rm *.o

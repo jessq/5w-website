@@ -1,0 +1,57 @@
+0::XSV4.0
+# Creator: Xess 4.0.5b
+X::A1..D10
+Ds:w4e9|h96|g1|c5|m0|p0|C0|A0|N2|b0|G1|o1|O1|S1:
+Dc:f3,8|c2,1|u2,4|j4|p1|F3|s3|S1|w1|U1|t1|V1|O1|P2,1|T2,1|L2,1|R2,1|B2,1:
+Dp:p0|o0|d264,318|m48,24,24,24|sd4059|S0|c0|H0|F0|b0|t0,0|R""|T""|g0|u1:
+DP:d0|t0|c1|l0|n""|A"":
+Di:t64|w0:
+Dcp:f1|F1|c0|j1:
+Dr:m0|M0|i0|c0|z0:
+Dh:e1|n1|c1|E7,2|N3,1|C7,2:
+Dq:m1|l1|L0|F0|f1:
+L:I"USD"|C"$"|k","|D"."|K"."|T","|N"-"|P""|M0|S1|X1|Y1|p2:
+Sn::1/Sheet1
+Sd::1
+Ws::D/586
+Cl@A9::"Andy"
+Cl@A10::"Sabrine"
+Cn@D6::=2
+Cn@D7::=2
+Cn@D8::=2
+Cn@D9::=2
+Cn@D10::=2
+Cn@C10::=0
+Cn@C9::=0
+Cn@B9::=4.0945
+Cn@B2::=9.039
+Cl@B1::"Money Spent"
+Cl@A1::"User"
+Cl@A2::"Erik"
+Cl@A3::"Dudley"
+Cl@A4::"Carly"
+Cl@A5::"Ed"
+Cl@A6::"Jon"
+Cl@A7::"Jessica"
+Cn@B8::=0
+Cl@A8::"Ken"
+Cl@C1::"ID's left"
+Cn@B3::=0
+Cn@B4::=0
+Cn@B5::=0
+Cn@B6::=0
+Cn@B7::=0
+Cn@C3::=0
+Cn@C4::=0
+Cn@C5::=0
+Cn@C6::=0
+Cn@C7::=0
+Cn@C8::=0
+Cn@B10::=0
+Cn@C2::=0
+Cl@D1::"Movies Attended"
+Cn@D2::=2
+Cn@D3::=2
+Cn@D4::=2
+Cn@D5::=1
+V0@D10::A1..J24

@@ -1,0 +1,16 @@
+This database was developed in order to track who in our small living
+group was paying for movie. As an added benefit (and this has now
+become its primary purpose) it enables people to rank movies on a
+scale of 1-10.
+
+This is version 2 of the movie database. It is written in perl version
+4, and runs correctly on linux boxes. The program consists of two
+scripts, input.pl and domovie.pl. input.pl is an administration
+script. it currently only inputs movies; it will be expanded to allow
+changinga and removing movies. 
+
+domovie.pl excecutes the html generation, and must be run in order to
+update the web pages.
+
+currently, the link _must_ be via web.mit.edu. for reasons i do not
+understand, it doesnt work otherwise.

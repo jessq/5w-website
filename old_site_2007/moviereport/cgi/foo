@@ -1,0 +1,14 @@
+#!/afs/athena/contrib/perl/p
+
+print "Content-type: text/html", "\n\n";
+
+print "<HTML>", "\n";
+use CGI:
+$query = new CGI;
+
+print $ENV{'QUERY_STRING'};
+print param('title');
+print "$title";
+print $query;
+
+exit (0);

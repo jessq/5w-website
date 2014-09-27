@@ -1,0 +1,19 @@
+#:City of Angels:5/30:dlamming
+dlamming:0:0:1:3
+#:Dark City:5/30:dlamming
+dlamming:0:0:1:6
+#:Mummy, The:6/5:dlamming
+dlamming:0:0:1:4
+#:Notting Hill:6/12:dlamming
+dlamming:0:0:1:8
+ruadh's movies:
+----
+Atame 9
+Carne Temblado 7
+Artemesia 6
+The Star Maker 4
+Ever After 9
+Dangerous Beauty 9
+Brazil 5
+Smoke Signals 8
+---

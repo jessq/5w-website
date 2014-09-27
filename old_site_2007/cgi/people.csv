@@ -1,0 +1,111 @@
+"Name","Room","E-mail","Homepage","Year","Major","Role","Birthday"
+"^","^","<A HREF=\"mailto:^\">^</A>","<A HREF=\"^\">web page</A>","^","^","^","^"
+"Andrew Greytak","W501C","agreytak@mit.edu","http://gel.mit.edu/andrew",2000,5,,"9/23"
+"Beau Tateyama","H512B","ueab@mit.edu","http://web.mit.edu/ueab/www/",1999,"2, 6","KP","4/15"
+"Betty Tsai","M510B","btsai@mit.edu","http://web.mit.edu/btsai/www",1999,"6-1",,"11/30"
+"Chris Laas","H507","golem@mit.edu",,2001,,,"7/6"
+"Cristian Gonzalez","M503B","althus@mit.edu",,1999,"6-1",,"3/29"
+"Dan Ramierez","M505B","dramirez@mit.edu",,1999,18,,"3/11"
+"Dave Golombek",,"daveg@mit.edu","http://web.mit.edu/daveg/www/",1998,"6-3",,"6/23"
+"Dawn Perlner","W514C","perlner@mit.edu","http://web.mit.edu/perlner/www/",2001,"18, 21M",,"12/14"
+"Dudley Lamming","M501C","dlamming@mit.edu","http://web.mit.edu/dlamming/www/",2000,22,,"3/3"
+"Edgar Martinez","H510C","edgarm7@mit.edu",,2000,14,"Recycle-Com","4/21"
+"Edwin Olson","M509B","eolson@mit.edu","http://edder.mit.edu/eolson",1999,"6-2","Hall Chair","6/3"
+"Emma Heitzman",,"emmah@mit.edu",,2001,15,,"8/20"
+"Eric Sit","W503B","esit@mit.edu","http://web.mit.edu/esit/www/",1999,"6-3",,"1/17"
+"Erwin Tam","M507A","wildfire@mit.edu",,1998,"6, 8, 18",,"5/20"
+"Hans Ludin","W509B","hludin@mit.edu",,2000,3,,"3/21"
+"Hilary Carter","M502B","hbcarter@mit.edu","http://edder.mit.edu/hbcarter",2000,10,"Suck Com","7/21"
+"I-hsiang Shu","M504A","ishu@mit.edu","http://web.mit.edu/ishu/www/",2001,6,,"3/19"
+"Jeff Vieregg","M508C","jvieregg@mit.edu",,2001,"8A",,"12/29"
+"~Jen Peltz",,"~jpeltz@mit.edu",,"~1998","~1",,"~9/3"
+"Jennifer Bonnell","W513","jbonnell@mit.edu",,2001,16,,"4/3"
+"Jennifer Ogrodnick","M506","jrogrod@mit.edu","http://jennybband.mit.edu/",2001,5,"GRT","12/31"
+"Joanna Gaunder","H509C","jogaun@mit.edu",,1999,9,,"5/14"
+"John Fries","H511C","jafries@mit.edu",,2001,6,,"10/16"
+"Jonathan Reed","W508","jdreed@mit.edu","http://web.mit.edu/jdreed/www",2001,"6-1",,"8/14"
+"Ken Roach","W503","kenr@mit.edu",,2001,5,,"6/17"
+"Kenny Chang",,"tetrion@mit.edu",,1998,"6, 8",,"8/24"
+"Laura Currea","M513C","laurac@mit.edu",,2001,"6-3",,"11/5"
+"Mary Ann Rasku","W512C","mrasku@mit.edu",,2000,2,,"1/21"
+"Max Bajracharya","H506B","maxb@mit.edu","http://web.mit.edu/maxb/www/",2001,"6-2",,"9/15"
+"Mike Behr",,"mabehr@alum.mit.edu",,1998,"6-3",,"8/28"
+"Mimi Yang","H502","galaxie@mit.edu",,2000,15,,"6/10"
+"Monica Taylor","H505","monicat@mit.edu",,2001,8,,"4/15"
+"Pamela Mukerji","H510","pmukerji@mit.edu",,2001,"6-2",,"3/27"
+"Patrycja Missiuro","M507","patrycja@mit.edu","http://web.mit.edu/patrycja/www/index.html",1999,"6-1",,"3/27"
+"Priscilla Fonseca","W511B","illa@mit.edu",,2000,1,,"7/28"
+"Sarah Cohen","W502C","scohen@mit.edu",,2000,18,,"9/26"
+"Sarah Rothberg","W510B","scrothie@mit.edu",,2000,"7, 13","Hall Chair","12/10"
+"Stacey Blau",,"seblau@mit.edu","http://the-tech.mit.edu/~stacey",1998,"18C",,"~7/14"
+"Thando Moutlana",,"thando@mit.edu",,1999,10,,"2/23"
+"Urvi Pajvani",,"urvi@mit.edu",,2001,7,,"8/8"
+"Vicky Best","W508B","vickyb@mit.edu",,1999,4,,"1/8"
+"Timothy Layman",,"Timothy.Layman@colorado.edu","http://the-tech.mit.edu/~tim",1997,18,,"7/8"
+"Heather Norton",,"heats@asu.edu",,1996,16,,
+"Ifung Lu",,"ilu@alum.mit.edu",,1997,,,
+"Steph Jenrette",,,,1997,,,
+"Darren Pierre",,,,1994,,"former GRT",
+"Jessica Walko",,,,1997,,,
+"Ismael Campos",,,,1997,,,
+"Nomahlubie Nkejane",,,,1997,,,
+"Ivano Gregoratto",,,,1997,,,
+"Felicia Tai",,,,1998,,,
+"Monfen Hong",,,,1996,,,
+"Doug DeCouto",,,,1997,,,
+"Michael Woods",,"mswoods@mit.edu",,1997,,,
+"Catalina Buttz",,"cmbuttz@mit.edu",,1998,,,
+"Diana Buttz",,"dcbuttz@mit.edu",,1998,,,
+"Robert Miller",,,,1998,,,
+"Yonald Cherry",,,,,,,
+"Pete Andrews",,,,,,,
+"Gigi Richards",,,,,,,
+"Robin Devereux",,,,1996,,,
+"Colin Chung",,,,1996,,,
+"Jennifer Zuniga",,,,1996,,,
+"Josef Paluch",,,,1996,,,
+"Elizabeth Stoehr",,"liz@mit.edu",,1996,,,
+"Jean-Pierre Alfred",,,,,,,
+"Aleksandra Szelag",,,,,,,
+"Nicole Sang",,,,1999,,,
+"Charla Lambert",,,,1996,,,
+"Stephanie Sparvero",,,,1996,,,
+"Anders Hove",,"anders@mit.edu",,1996,,,
+"Dhaya Lakshminarayanan",,"dlak@mit.edu",,1996,,,
+"Jeff Levine",,"tornado@mit.edu",,1996,,,
+"Jose Plehn-Dujowich",,,,,,,
+"Tariq Shaukat",,"tariqs@octant.com",,1994,,,
+"Alberto Castillo",,,,,,,
+"Srijoy Mahpatra",,,,,,,
+"Anna Tomassini",,,,1995,,,
+"Eileen Brooks",,"ebrooks@kuznets.fas.harvard.edu",,,,,
+"Kelly Hetherington",,,,,,,
+"Arlene Frech",,,,1997,,,
+"Carlos Aneses",,,,,,,
+"Michael Chung",,,,1994,,,
+"Dave Spetman",,,,1995,,,
+"Zhizhong ???",,,,,,"former GRT",
+"Kaiyin ???",,,,,,"former GRT",
+"Shuji Takahashi",,,,1995,,,
+"Henry Chong",,,,1995,,,
+"Mandla Shezi",,,,1995,,,
+"Owen Wessling",,,,1995,,,
+"Veronica Klepeis",,,,,,,
+"Philip Tracadas",,"tracadas@sebago.mit.edu",,1995,,,
+"Cynthia Blake-Powell",,,,1995,,,
+"Margherita Chang",,,,1995,,,
+"Scott Rixner",,"rixner@mit.edu",,,,,
+"Melissa Rivera",,"melis@itsa.ucsf.edu",,,,,
+"Aliza Mezrich",,,,1995,,,
+"Beethika (Shampa) Khan",,,,1995,,,
+"Joseph Paluch",,,,1995,,,
+"John Klepeis",,,,,,,
+"Pete Yao",,"pyao@us.oracle.com",,1995,,,
+"Jessica Mary Donnelly","H512","ruadh@mit.edu",,2002,13,,"2/26"
+"Erin Shea","M504","ekshea@mit.edu",,2002,"2, 16",,"11/26"
+"Kim Falinski","H503","kim12@mit.edu",,2002,,,"7/7"
+"Ariel Segall","H509","ariels@mit.edu",,2002,6,,"1/9"
+"Andy Marsh","W513","andym@mit.edu",,2002,,,
+"Erik Iglesias","W513","eerikk@mit.edu",,2002,,,
+"Carly Kastner","H504","goodevil@mit.edu",,2002,6,,"11/5"
+"Andy Eisenmann",,"eisen@mit.edu",,,,,

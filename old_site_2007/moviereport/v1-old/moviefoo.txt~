@@ -1,0 +1,288 @@
+start
+#:fakemovie:never:foobar
+#:Evil Dead 2:4/25/99:andym
+dlamming:0:0:1:8
+eerikk:0:0:1:9
+goodevil:0:0:1:9
+andym:3.25:0:1:9
+ruadh:0:0:1:6
+jdreed:0:0:1:7
+kenr:0:0:1
+#:Final Countdown:4/26/99:dlamming
+dlamming:0:0:1:7
+eerikk:6.65:0:1:8
+goodevil:0:0:1:4
+andym:0:0:1:5
+sabrin:0:0:1:6
+ruadh:0:0:1:4
+kenr:0:0:1
+jdreed:0:0:1:6
+eolson:0:0:1
+hbcarter:0:0:1:2
+#:Army Of Darkness:4/28/99:dlamming
+dlamming:0:0:1:10
+eerikk:4.95:0:1:7
+goodevil:0:0:1:9
+andym:0:0:1:7
+ruadh:0:0:1:8
+kenr:0:0:1
+jdreed:0:0:1:8
+eolson:0:0:1
+hbcarter:0:0:1:3
+#:Ghostbusters:4/29/99:dlamming
+eerikk:0:1:1:7
+dlamming:1:0:1:7
+goodevil:0:0:1:7
+#:Andy's Home Movies:5/3/99:andym
+andym:0:1:1:9
+sabrin:0:0:1:9
+eerikk:0:0:1:8
+eolson:0:0:1
+goodevil:0:0:1
+#:Star Wars:5/3/99:jdreed
+dlamming:0:0:1:8
+jdreed:0:0:1:10
+ruadh:0:1:1:8
+kenr:1:0:1
+#:Star Wars-The Empire Strikes Back:5/4/99:jdreed
+dlamming:0:0:1:9
+jdreed:1:1:1:10
+ruadh:0:0:0:9
+goodevil:0:0:1:8
+kenr:0:0:1
+#:Star Wars-Return of the Jedi:5/7/99:dlamming
+dlamming:0:0:1:7
+kenr:0:0:1:
+ruadh:0:0:1:8
+goodevil:0:0:1:7
+jdreed:1:0:1:7
+eerikk:0:0:1:8
+andym:0:0:1:7
+thejen:0:0:1:6
+agreytak:0:1:0:
+#:Rushmore (LSC):5/8/99:eerikk
+dlamming:0:0:1:7
+eerikk:0:0:1:9
+andym:0:0:1:8
+ruadh:0:0:1:3
+jdreed:0:0:1:4
+goodevil:0:0:1:7
+agreytak:0:0:1
+kenr:0:0:1
+#:Strange Brew:5/8/99:andym
+dlamming:3:0:1:8
+goodevil:3:0:1:7:
+andym:4.56:0:1:9
+kenr:1:0:1
+eerikk:3:1:1:8
+agreytak:0:0:1:8
+hbcarter:0:0:1:6
+#:Jack Frost (1997):5/8/99:eerikk
+dlamming:0:0:1:8
+goodevil:0:0:1:9
+andym:0:0:1:9
+kenr:0:0:1
+eerikk:0:1:1:9
+hbcarter:0:0:1:7
+eolson:0:0:1:5
+#:Invincible Armor:5/9/99:andym
+dlamming:0:0:1:3
+andym:0:0:1:3
+kenr:0:0:1:
+goodevil:0:0:1:3
+hbcarter:0:0:1:3
+eerikk:0:1:1:2
+#:Running Man, The:5/10/99:andym
+eerikk:0:1:0
+dlamming:0:0:1:7
+jdreed:0:0:1:4
+goodevil:0:0:1:5
+kenr:0:0:1:
+sabrin:0:0:1:5
+ruadh:0:0:1:7
+eolson:0:0:1:3
+hbcarter:0:0:1:2
+andym:0:0:1:5
+eerikk:0:0:1:7
+#:Repo Man:5/11/99:andym
+eerikk:2.33:0:0 
+andym:1.95:0:0 
+dlamming:1:0:0 
+goodevil:1:0:0 
+eerikk:0:1:0
+dlamming:0:0:1:7
+andym:0:0:1:6
+eolson:0:0:1:2
+goodevil:0:0:1:2
+kenr:0:0:1:2
+sabrin:0:0:1:4
+eerikk:0:0:1:4
+hbcarter:0:0:1:1
+#:Rosemary's Baby:5/12/99:hbcarter
+eerikk:0:1:0
+dlamming:0:0:1:2
+andym:0:0:1:2
+ruadh:0:0:1:9
+hbcarter:0:0:1:4
+kenr:0:0:1:4
+eerikk:0:0:1:2
+goodevil:0:0:1:3
+#:Faculty, The (LSC):5/13/99:dlamming
+eerikk:0:0:1:4
+andym:0:0:1:4
+goodevil:0:0:1:2
+eolson:0:0:1:2
+dlamming:0:0:1:6
+kenr:0:0:1:3
+jdreed:0:0:1:5
+agreytak:0:0:1:4
+scrothie:0:0:1:
+#:Blues Brothers:5/13/99:jdreed
+jdreed:1:0:0 
+jdreed:0:1:0
+jdreed:0:0:1:10
+ruadh:0:0:1:8
+hbcarter:0:0:1:9
+jvieregg:0:0:1:10
+agreytak:0:0:1:10
+#:Star Wars Holiday Special:5/14/99:jdreed
+jdreed:0:0:1:
+ruadh:0:0:1:1
+#:Bean:5/15/99:eolson
+agreytak:1:0:0
+agreytak:0:1:0
+eerikk:0:0:1:7
+kenr:0:0:1:5
+goodevil:0:0:1:4
+eolson:0:0:1:5.5
+hbcarter:0:0:1:5
+andym:0:0:1:6
+sabrin:0:0:1:7
+sgupta:0:0:1:4
+dlamming:0:0:1:3
+#:Shawshank Redemption:5/15/99:jdreed
+agreytak:1:0:0 
+agreytak:0:1:0
+agreytak:0:0:1:10
+jdreed:0:0:1
+jvieregg:0:0:1
+scohen:0:0:1
+#:Pod People (MST3K):5/16/99:hbcarter
+hbcarter:0:1:0
+eerikk:0:0:1:5
+sabrin:0:0:1:8
+goodevil:0:0:1:8
+andym:0:0:1:8.5
+hbcarter:0:0:1:8
+kenr:0:0:1:7
+dlamming:0:0:1:4
+#:Jackal, The:5/17/99:agreytak
+jdreed:0:1:1:9
+agreytak:0:0:1:
+ruadh:0:0:1:
+scohen:0:0:
+#:Austin Powers:5/18/99:eolson
+eolson:0:1:1:
+dlamming:0:0:1:8
+goodevil:0:0:1:8
+#:Rob Roy:5/18/99:ruadh
+ruadh:0:1:1:9
+jdreed:0:0:1:9
+agreytak:0:0:1:9
+#:Phantom Menace:5/19/99:andym
+eerikk:0:0:1:6.5
+andym:0:0:1:6.5
+ekshea:0:0:1:
+#:Angus:5/19/99:eolson
+eolson:0:1:1:4
+andym:0:0:1:2.5
+eerikk:0:0:1:3.5
+goodevil:0:0:1:3
+btsai:0:0:1:
+#:The Amazing Colossal Man:5/20/99:andym
+andym:0:1:1:7.5
+eerikk:0:0:1:7
+sabrin:0:0:1:
+#:Phantom Menace:5/21/99:jdreed
+dlamming:0:0:1:7
+goodevil:0:0:1:6
+jdreed:0:0:1:7
+agreytak:0:0:1:8
+hana:0:0:1:7
+kenr:0:0:1:
+sabrin:0:0:1:
+scrothie:0:0:1:6
+hbcarter:0:0:1:4
+eolson:0:0:1:4.5
+ruadh:0:0:1:7
+monicat:0:0:1:9
+eerikk:0:0:1:6
+andym:0:0:1:6.5
+#:Sneakers:5/22/99:ruadh
+hbcarter:1:0:1:6
+eolson:0:0:1:6
+dlamming:0:0:1:7
+andym:0:0:1:7
+sabrin:0:1:1:5
+ruadh:0:0:1:8
+kenr:0:0:1:7
+goodevil:0:0:1:7
+#:Howard the Duck:5/29/99:eolson
+hbcarter:1:1:1:2
+kenr:0:0:1:2
+goodevil:0:0:1:2
+eolson:0:0:1:3
+#:Goonies:5/31/99:eolson
+eolson:.25:1:1:4.5
+goodevil:.25:0:1:4
+jdreed:.20:0:1:4
+kenr:.30:0:1:4
+hbcarter:0:0:1:
+#:Austin Powers:6/1/99:thejen
+jdreed:0:0:1:8
+scrothie:0:0:1:
+agreytak:0:0:1:
+thejen:0:0:1:
+kenr:0:0:1:
+#:Wayne's World:6/5/99:agreytak
+agreytak:.50:0:1:8
+hbcarter:.25:1:1:8
+ruadh:.25:0:1:8.5
+goodevil:0:0:1:8.5
+#:Real Genius:6/6/99:jdreed
+jdreed:.5:1:1:6.5
+ruadh:0:0:1:8
+agreytak:0:0:1:6
+goodevil:0:0:1:6
+#:You Only Live Twice (LSC):6/11/99:jdreed
+jdreed:0:0:1:
+eolson:0:0:1:
+agreytak:0:0:1:
+scrothie:0:0:1:
+goodevil:0:0:1:5.5
+#:The Wild Bunch:6/15/99:jdreed
+jdreed:0:1:1:8
+agreytak:0:0:1:7
+ruadh:0:0:1:3
+goodevil:0:0:1:3
+#:Austin Powers 2:6/16/99:jdreed
+jddreed:0:0:1:8
+ruadh:0:0:1:8.5
+scrothie:0:0:1:
+agreytak:0:0:1:
+#:Robin Hood:6/19/99:jdreed
+agreytak:0:0:1:
+jdreed:1:1:1:
+ruadh:0:0:1:7.5
+kenr:0:0:1:
+perlner:0:0:1
+#:Die Hard:6/20/99:agreytak
+agreytak:.25:1:1:7
+kenr:.25:0:1:7
+goodevil:.5:0:1:6.5
+#:Die Hard With A Vengeance:6/21/99:jdreed
+agreytak:1:1:1:7
+jdreed:0:0:1:7
+kenr:0:0:1:7
+eolson:0:0:1:7
+goodevil:0:0:1:7

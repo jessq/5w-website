@@ -1,0 +1,40 @@
+<html>
+<body bgcolor=#ffffff>
+<font size=-1>
+
+<FORM target=first ACTION="directory.cgi" METHOD="GET">
+
+<TABLE WIDTH=100%>
+<TR bgcolor=#0000ff><TD>&nbsp</TD></TR>
+</TABLE>
+
+<TABLE>
+<TR><TD width=50% valign=top>
+
+<input type="radio" Name="NOTEMPTY" Value="name">Display all residents, past and current</INPUT><BR>
+<INPUT TYPE="radio" Name="NOTEMPTY" Value="ROOM" checked>Display only current residents</INPUT><BR>
+<INPUT TYPE="radio" Name="NOTEMPTY" Value="role">Display only hall officers</INPUT><BR>
+
+</TD>
+
+<TD width=50% valign=top>
+Sort By: 
+<select name="sort">
+<option selected value="az name">Name</OPTION>
+<option value="az room">Room</OPTION>
+<option value="az e-mail">E-Mail Address</OPTION>
+<option value="az homepage">Homepage</OPTION>
+<option value="09 year">Year</OPTION>
+<option value="09 major">Major</OPTION>
+<option value="az role">Role</OPTION>
+<option value="date birthday">Birthday</OPTION>
+</select>
+<input type="submit" value="Apply">
+</TD></TR></TABLE>
+</form>
+
+<P>This handy CGI by <A HREF="mailto:eolson@mit.edu">eolson@mit.edu</A>. Bring on the comments, suggestions, and bug reports!</P>
+</font>
+</body>
+
+</html>

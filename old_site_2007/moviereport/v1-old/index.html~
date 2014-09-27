@@ -1,0 +1,14 @@
+<HTML> <header> <body bgcolor=white > <title>The Movie Going Web
+Page</title><h2>
+
+<p> This is the Fifth-West Movie Database </p>
+<p> This is the database  of movies we've watched, including dates, who went, and user rankings. </p> 
+
+<p> You can look at it <a href=moviedate.html> sorted by title. </a>
+
+<p> Or you can look at a <a href =movie.html> sorted by date. </a></p>
+
+<p> This is the <a href = report.html> user database </a>.
+
+<p> Source code for this database is available upon <a
+href="mailto:dlamming@mit.edu"> request. </a>

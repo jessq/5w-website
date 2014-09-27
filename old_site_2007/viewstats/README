@@ -1,0 +1,44 @@
+VOTE DIST CGI
+-------------
+written by Edwin Olson, eolson@mit.edu, 8/1/99
+All rights reserved. You may distribute compiled executables free of charge to other people using dlamming's database, but you may not distribute source under any circumstances, nor may you use any part of the source on any other project.
+
+Don't expect much. I spit this out in 3 hours, so give me a break!
+
+This little script uses the gd graphics library to generate a vote distribution graph for use with dlamming's movie ranking database. I made an attempt to decipher dlamming's db format and wrote a little function to rip out all the useful information.
+
+You pass the CGI a form with the following fields:
+
+USER=name
+required.
+
+WIDTH=pixels
+optional
+sets the size of the graph-part of the output
+
+HEIGHT=pixels
+optional
+sets the size of the graph-part of the output
+
+LABELHEIGHT=pixels
+optional
+sets the height of the region used to label the X axis
+
+HORIZPADDING=pixels
+optional
+specifies the width of a pixel padding on either side of the graph.
+
+VARIANCE=float
+optional
+specifies the variance of the gaussian used to smooth the data. Smaller=less smothing
+
+NOTE: So total picture size is (WIDTH+2*HORIZPADDING) x (HEIGHT+LABELHEIGHT)
+
+Some things you might want to fiddle with
+-----------------------------------------
+To smooth out the graph, a gaussian distribution is used. It's not terribly meaningful (statistically), but it makes it pretty. You might want to fiddle with the variance of the pdf. Larger variance means the graphs are smoother, but less resolution. Smaller variance is uglier but higher resolution. Variance of about 0.5-1 seems to be pretty good, though if you have a LOT of samples, maybe you could reduce it a bit.
+
+GIF is kinda pissy, legally, at least. My version of gd was old and kinda crappy, and doesn't support PNG. You may want to change this code to output in PNG. It's easy. Just change the HTTP header to image/png and the image output line to gdImagePng(im,stdout) instead of gdImageGif(im,stdout). You might need to link in the png lib too.
+
+If dlamming changes the db format, you just need to rewrite that one little function readdatafile.
+

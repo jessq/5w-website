@@ -1,0 +1,105 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#include "tsvdb.h"
+#include "CGIparse.h"
+
+#define DB_NAME "people.tsv"
+#define HEADER_FILE "header.html"
+#define FOOTER_FILE "footer.html"
+#define BUFFSIZE 2048
+
+void formatstring(char *format, char *string);
+void insertfile(char filename[]);
+
+int main(int argc, char *argv[])
+{
+  TSVdb tsvdb;
+  CGIparse cgip;
+  int rows;
+  int row, column;
+  char *cell, *format;
+
+  printf("Content-type: text/html\n\n");
+
+  insertfile(HEADER_FILE);
+
+  tsvdb=TSVdb_create(DB_NAME);
+  
+  rows=TSVdb_rows(tsvdb);
+
+  cgip=CGIparse_create(getenv("QUERY_STRING"));
+
+  printf("<TR>");
+
+  for (column=0;column<TSVdb_columns(tsvdb);column++)
+    {
+      cell=TSVdb_getCell(tsvdb,0,column);
+      printf("<TH>%s</TH>",cell);
+    }
+
+  printf("</TR>\n");
+
+  for (row=2;row<rows;row++)
+    {
+      if (row&1)
+	printf("<TR class=odd>");
+      else
+	printf("<TR class=even>");
+
+      for (column=0;column<TSVdb_columns(tsvdb);column++)
+	{
+	  printf("<TD>");
+	  cell=TSVdb_getCell(tsvdb,row,column);
+	  format=TSVdb_getCell(tsvdb,1,column);
+	  formatstring(format,cell);
+	  printf("</TD>");
+	}
+
+      printf("</TR>\n");
+    }
+
+  insertfile(FOOTER_FILE);
+
+  return 0;
+}
+
+void formatstring(char *format, char *string)
+{
+  int pos,len;
+  
+  len=strlen(format);
+
+  /* do not do substitution if the cell is empty */
+  if (strlen(string)==0)
+    {
+      printf("&nbsp");
+      return;
+    }
+
+  for (pos=0;pos<len;pos++)
+    {
+      if (format[pos]!='^')
+	printf("%c",format[pos]);
+      else
+	printf("%s",string);
+    }
+}
+
+void insertfile(char filename[])
+{
+  FILE *file;
+  char buffer[BUFFSIZE];
+  int len;
+
+  file=fopen(filename,"r");
+  if (file==NULL)
+    return;
+
+  do {
+    len=fread(buffer,1,BUFFSIZE,file);
+    fwrite(buffer,1,len,stdout);
+  } while (len>0);
+
+  fclose(file);
+}

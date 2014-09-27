@@ -1,0 +1,16 @@
+#include "vector.h"
+
+typedef struct
+{
+  Vector rows;
+  int maxcolumns;
+
+} TSVdbRecord;
+
+typedef TSVdbRecord *TSVdb;
+
+TSVdb TSVdb_create(char* filename);
+int TSVdb_addRowsFromFile(TSVdb tsvdb, char *filename);
+char* TSVdb_getCell(TSVdb tsvdb, int row, int column);
+int TSVdb_rows(TSVdb tsvdb);
+int TSVdb_columns(TSVdb tsvdb);

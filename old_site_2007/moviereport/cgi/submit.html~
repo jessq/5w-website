@@ -1,0 +1,45 @@
+<HTML> <header> <body bgcolor=white > <title>The Fifth West Movie
+Database</title> <img src=5wlogo.gif align=left> <h3> The Fifth West
+Movie Database </h3> <ul> <li> <a
+href=http://web.mit.edu/5west/www/moviereport/table.html> Rating
+Summary </a> <li> <a
+href=http://web.mit.edu/5west/www/moviereport/byname.html> Sorted by
+Name </a> <li> <a
+href=http://web.mit.edu/5west/www/moviereport/bydate.html> Sorted by
+Date </a> <li> <a
+href=http://web.mit.edu/5west/www/moviereport/user.html> User Database
+</a> <li> <a href=http://web.mit.edu/5west/www/moviereport/about.html>
+About the database </a> <li><a
+href=http://web.mit.edu/5west/www/moviereport/submit.html> Submit
+Movie Data </a> <li><a href=http://web.mit.edu/5west/www/moviereport/movielist.html> The
+EC Movielist </a></ul>
+
+<BR clear=left>
+
+    <FORM METHOD="POST"
+ACTION="http://fw.mit.edu/moviereport/cgi/enter.cgi">
+<p>
+Your username <INPUT TYPE="text" NAME="name" SIZE="26" maxlength="40">
+<br>
+<p> Name of the Movie <Input type="text" name="title" size="50">
+<br>
+<p>
+
+Please enter the username, followed by the amount of money and id
+left.1 name per line. For example:
+<br>
+dlamming 0.50 1
+<br> means dlamming paid $0.50 and left 1 id
+<br>
+<TEXTAREA NAME="paid" ROWS=8 COLS=15></TEXTAREA><P>
+
+<br> Now enter ratings. 1 username per line, followed by a number.
+<br> ie, dlamming 5
+<br>
+<TEXTAREA NAME="message" ROWS=15 COLS=15></TEXTAREA><P>    
+
+      <INPUT TYPE="submit" VALUE="Submit"> or
+      <INPUT TYPE="reset" VALUE="reset this form"> if you want to start over.
+
+    </FORM>
+

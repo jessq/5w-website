@@ -1,0 +1,13 @@
+#include "vector.h"
+
+typedef struct
+{
+  char *data;
+
+  Vector key;
+  Vector value;
+} CGIparseRecord;
+
+typedef CGIparseRecord *CGIparse;
+
+CGIparse CGIparse_create(char *data_in);

@@ -1,0 +1,50 @@
+#include "CGIparse.h"
+
+/* returns NULL on failure */
+
+CGIparse CGIparse_create(char *data_in)
+{
+  CGIparse cgip;
+  int len, readmark,writemark;
+
+  if ((cgip=(CGIparse) malloc(sizeof(CGIparseRecord)))==NULL)
+    return NULL;
+
+  /* copy the data */
+  len=strlen(data_in);
+
+  cgip->data=malloc(len+1);
+  memcpy(cgip->data,data_in,len+1);
+
+  cgip->key=Vector_create(0);
+  cgip->value=Vector_create(0);
+
+  /* convert all escape sequences into real ASCII */
+  for (readmark=0;readmark<len;readmark++)
+    {
+      switch (cgip->data[readmark]):
+	{
+	case '+':
+	  cgip->data[writemark++]=' ';
+	  break;
+	 
+	case '%':
+	  if ((readmark+2)<len)
+	    {
+	      cgip->data[writemark++]=(cgip->data[readmark+1]-'0')*10+
+		(cgip->data[readmark+2]-'0');
+	      readmark+=2;
+	    }
+	  break;
+
+	default:
+	  cgip->data[writemark++]=cgip->data[readmark];
+	}
+    }
+
+  cgip->data[writemark]=0;
+
+  printf("%s",cgip->data);
+
+  return cgip;
+}

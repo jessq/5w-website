@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>5th West of East Campus.</title>
+<style type="text/css">
+<!--
+body,td,th {
+	color: #FF0000;
+}
+body {
+	background-color: #000000;
+}
+.style4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	color: #FFFFFF;
+}
+a:link {
+	color: #FF0000;
+}
+a:visited {
+	color: #FFFF00;
+}
+a:hover {
+	color: #FF6600;
+}
+a:active {
+	color: #00FF00;
+}
+.style5 {color: #FFFFFF}
+.style8 {color: #333333}
+-->
+</style></head>
+
+<body>
+<p align="center"><strong><span class="style4">Welcome to</span></strong></p>
+<div align="center"><img src="the_shirt.bmp" width="350" height="290" /></div>
+<p align="center"><strong><span class="style4">5th West</span></strong></p>
+<p align="center">&nbsp;</p>
+<p align="center"><span class="style5"><a href="about_us.html">About Us</a><span class="style8">~~~~~~~~</span><a href="People-Link.html">People</a><span class="style8">~~~~~~~~</span><a href="government.html">Government</a><span class="style8">~~~~~~~~</span><a href="pictures.html">Pictures</a><span class="style8">~~~~~~~~</span><a href="links.html">Links</a></span></p>
+<p align="center">&nbsp;</p>
+<p align="center" class="style5">webmaster: mooney@mit.edu </p>
+</body>
+
+
+</html>

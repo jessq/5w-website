@@ -1,0 +1,72 @@
+#!/afs/athena/contrib/perl/p
+#
+#This is a perl-based system for inputing info into the movie database.
+#Dudley Lamming, 1999
+#
+system("clear");
+print "The Fifth West Movie Database$!\n";
+print "1. Enter rating information $!\n";
+print "2. Enter movie information if you are not an admin $!\n";
+print "3. Enter movie information if you are an admin $!\n";
+print "The current admins are:$!\n";
+system("blanche 5i-admin");
+print "Command: ";
+$answer = <STDIN>;
+chop $answer;
+
+if ($answer ==1) {
+    print "What is your name? $!\n";
+    $user = <STDIN>;
+    chop $user;
+    print "What movie are you rating? $!\n";
+    $moviename = <STDIN>;
+    chop $moviename;
+    print "What rating would you like to give? (1-10)$!\n";
+    $rating = <STDIN>;
+    chop $rating;
+    open(temp, ">/var/tmp/temp.txt");
+    printf temp "$!$user $!$moviename $!$rating";
+    close(temp);
+    system("mhmail 5i-admin < /var/tmp/temp.txt");
+  };  
+
+if ($answer >= 2 ){
+print "This is a the Fifth-West Movie database entry system. \n";
+print "Please enter the name of the movie $!\n";
+$moviename = <STDIN>;
+chop $moviename;
+print "Please enter the date in mm/dd/yy format $!\n";
+$date = <STDIN>;
+chop $date;
+print "Who's fault was this movie?$!\n";
+$fault = <STDIN>;
+chop $fault;
+print "Please enter the name of the person who paid for the movie, followed by the amount paid. Press Control-D when done. $!\n";
+@paid = <STDIN>;
+chop @paid;
+print "Please enter the name of the person who left id $!\n";
+$id = <STDIN>;
+chop $id;
+print "Please enter the names of _all_ persons who attended this movie. One name per line, please. Press Control-D when done $!\n";
+@list = <STDIN>;
+
+open(temp, ">temp.txt");
+printf temp "#:$moviename:$date:$fault$!\n";
+foreach $person (@paid){
+    ($username, $money)= split (/ / , $person);
+    printf temp "$username:$money:0:0$!\n" ;
+
+}
+printf temp "$id:0:1:0$!\n";
+
+foreach $person (@list){
+    chop $person;
+    printf temp "$person:0:0:1$!\n";
+}
+close(temp);
+if ($answer==2){system("mhmail 5i-admin < temp.txt")};
+if ($answer==3){system("cat temp.txt >> moviefoo.txt")};
+}
+
+
+

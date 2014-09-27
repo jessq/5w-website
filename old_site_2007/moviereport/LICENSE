@@ -1,0 +1,14 @@
+The fifth-west movie database is provided under the following license:
+
+domovie.pl and input.pl were written by Dudley Lamming,
+dlamming@mit.edu All rights are reserved. These scripts are hereby
+made available under the GNU Public License (GPL). For a copy of the
+GPL, you may contact the Free Software Foundation.
+
+userdist.cgi and moviedist.cgi are made available under the following license: 
+written by Edwin Olson, eolson@mit.edu, 8/1/99
+All rights reserved. You may distribute compiled executables free of
+charge to other people using dlamming's database, but you may not
+distribute source under any circumstances, nor may you use any part
+of the source on any other project.
+

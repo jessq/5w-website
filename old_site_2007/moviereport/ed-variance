@@ -1,0 +1,10 @@
+
+you know how to scale it?
+
+assume that the measured average  is Ma and measured variance is Mv
+
+for each sample of value x, (and desired average is Da, desired
+variance Dv)
+compute:
+
+x'= (x-Ma)/sqrt(Mv) * sqrt(Dv) + Da

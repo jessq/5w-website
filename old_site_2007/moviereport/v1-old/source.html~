@@ -1,0 +1,23 @@
+<HTML> <header> <body bgcolor=white > <title>The Movie Going Source Web
+Page</title><h2>
+
+<p> This is a perl-based movie database designed for a relatively small living
+group. It tracks the movies we watch, who pays for movies, and who
+leaves id behind. It also allows ratings to be input for each
+movie. </p>
+
+<p> The main database program is available <a href = "moviefoo.pl">
+here. </a> It requires a text file which contains the actual
+data. This file should be named moviefoo.txt, and must contain the
+line "start" and the line "#:fakemovie:never:foobar" as the first two
+lines. </p>
+
+<p> The <a href ="input"> input </a> program contains a simple
+manager program to add items to the database. You will need to
+re-format it based on your local installation needs. </p>
+
+<p> All of the above are available under the GNU Public Licence. </p>
+
+<h2> You are the <img
+src="http://www.mit.edu:8001/cgi/counter/dlamming-movie-conuter-source-2">the
+visitor to this site.</h2>
