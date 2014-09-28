@@ -1,0 +1,12 @@
+# Require certificates
+AuthType SSLCert
+# Require MIT certificate to make site MIT-only
+#Require valid-user
+# Restrict access to particular set of one or more usernames
+#Require user user1 user2
+# Restrict to members of Moira list that is an AFS group
+# List must be visible and an AFS group
+# use blanche group -i = visible, is a group
+#Require afsgroup system:group1 system:group2
+Require afsgroup system:5west
+ErrorDocument 401 /__scripts/needcerts
